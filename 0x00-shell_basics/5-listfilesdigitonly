@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -v
+ls -1 | sort -n -k1.4
