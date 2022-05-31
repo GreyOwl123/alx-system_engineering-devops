@@ -1,1 +1,2 @@
 #!/bin/bash
+find . -name "pattern_*" -printf . | wc -m
