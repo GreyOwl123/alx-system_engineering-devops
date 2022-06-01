@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name "pattern_*" -printf . | wc -m
+grep -c -i "bin" /etc/passwd
